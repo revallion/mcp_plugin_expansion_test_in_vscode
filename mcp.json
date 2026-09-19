@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "local-tools": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "${PLUGIN_ROOT}/server.py",
+        "--data",
+        "${PLUGIN_DATA}"
+      ],
+      "env": {
+        "PLUGIN_ROOT": "${PLUGIN_ROOT}",
+        "PLUGIN_DATA": "${PLUGIN_DATA}"
+      }
+    }
+  }
+}

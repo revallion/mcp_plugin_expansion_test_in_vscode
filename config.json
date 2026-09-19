@@ -1,0 +1,4 @@
+{
+  "root_location": "${PLUGIN_ROOT}",
+  "data_location": "${PLUGIN_DATA}"
+}
