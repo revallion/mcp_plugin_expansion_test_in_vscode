@@ -1,0 +1,1 @@
+# mcp_plugin_expansion_test_in_vscode
