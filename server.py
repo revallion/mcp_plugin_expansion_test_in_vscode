@@ -2,13 +2,13 @@ import os
 import json
 import argparse
 from pathlib import Path
-from mcp.server.fastmcp import FastMCP
+from mcp.server.mcpserver import MCPServer
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--data", help="Expanded PLUGIN_DATA path from CLI args")
 args, _ = parser.parse_known_args()
 
-mcp = FastMCP("path-location-server")
+mcp = MCPServer("path-location-server")
 
 def load_config_paths() -> dict:
     """Load config.json and expand embedded environment variables."""
